@@ -47,7 +47,6 @@ public class Question1 {
         int result = 0;
         for (int i=0; i<input.length; i++) {
             result ^= input[i];
-            System.out.println(result);
         }
 
         return result;
