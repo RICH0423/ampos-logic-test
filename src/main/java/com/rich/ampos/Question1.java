@@ -24,17 +24,17 @@ public class Question1 {
      * @return Set<Integer>
      */
     private static Set<Integer> easy1(int [] input) {
-        Set<Integer> distinctMap = new HashSet<>();
+        Set<Integer> distinctSet = new HashSet<>();
 
         Arrays.stream(input).forEach(number -> {
-            if (distinctMap.contains(number)) {
-                distinctMap.remove(number);
+            if (distinctSet.contains(number)) {
+                distinctSet.remove(number);
             } else {
-                distinctMap.add(number);
+                distinctSet.add(number);
             }
         });
 
-        return distinctMap;
+        return distinctSet;
     }
 
     /**
