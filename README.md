@@ -1,6 +1,6 @@
 # ampos-logic-test
 
-## Build project
+## Build project with Maven
 
 ```bash
 mvn clean package
